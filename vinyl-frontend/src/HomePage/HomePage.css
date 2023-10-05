@@ -1,0 +1,147 @@
+.hero {
+    display: none;
+    margin-top: 30px;
+}
+
+.hero-container {
+    min-width: 100%;
+}
+
+.hero-link {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+}
+
+.category-container {
+    margin: 32px 12px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.category-list {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.category-item {
+    line-height: 0.1em;
+}
+
+.category-button {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    font-weight: 800;
+    color: rgb(169, 169, 169);
+    text-transform: uppercase;
+    transition: color 0.6s ease-in-out;
+}
+
+.category-button.select {
+    color: rgb(0, 140, 255);
+    border-bottom: 2px solid rgb(0, 140, 255);
+}
+
+.play-all {
+    margin-left: auto;
+}
+
+.play-all-button {
+    background: linear-gradient(to right, rgb(255, 165, 0), rgb(183, 0, 183));
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: 12px;
+    border: none;
+    width: 110px;
+}
+
+.music-catalog {
+    display: flex;
+    justify-content: center;
+}
+
+.music-catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.music-catalog-item {
+    max-width: 266px;
+}
+
+.music-catalog-link {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0 12px 30px 0;
+}
+
+.music-catalog-img {
+    border-radius: 6px;
+}
+
+.music-catalog-description {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(80, 80, 80);
+}
+
+.music-title {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.music-artist-name {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.music-label {
+    font-size: 10px;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        display: flex;
+        z-index: 0;
+    }
+
+    .category {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .category-list {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .category-item {
+        margin-right: 12px;
+    }
+
+    .play-all {
+        margin-left: 24px;
+    }
+
+    .category-button:hover {
+        color: rgb(0, 140, 255);
+    }
+
+}
