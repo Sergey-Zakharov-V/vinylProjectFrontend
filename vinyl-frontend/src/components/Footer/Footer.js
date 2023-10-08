@@ -77,22 +77,22 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li className="footer-list-item">
-                                <Link to="#" className="footer-item-link">
+                                <Link to="/general-terms" className="footer-item-link">
                                     Общие условия
                                 </Link>
                             </li>
                             <li className="footer-list-item">
-                                <Link to="#" className="footer-item-link">
+                                <Link to="/payment" className="footer-item-link">
                                     Оплата
                                 </Link>
                             </li>
                             <li className="footer-list-item">
-                                <Link to="#" className="footer-item-link">
+                                <Link to="/delivery" className="footer-item-link">
                                     Доставка
                                 </Link>
                             </li>
                             <li className="footer-list-item">
-                                <Link to="#" className="footer-item-link">
+                                <Link to="/contacts" className="footer-item-link">
                                     Контакты
                                 </Link>
                             </li>

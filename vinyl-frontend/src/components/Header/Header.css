@@ -122,6 +122,17 @@
     margin-left: 16px;
 }
 
+.order-history-logo {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 32px;
+}
+
+.history-orders-button {
+    border: none;
+    background-color: inherit;
+}
+
 .nothing-here {
     color: rgb(103, 103, 103);
     font-weight: 500;

@@ -1,0 +1,431 @@
+.track-information {
+    margin: 90px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shared-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-with-product-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.album-image-item {
+    width: 100%;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.artistName {
+    font-size: 22px;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.catalogue__product-name {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 2px;
+}
+
+.characteristics-goods {
+    font-size: 13px;
+}
+
+.characteristics-goods-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-indented {
+    margin-right: 10px;
+}
+
+.price-and-availability-information-container {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px 0 40px;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.3);
+    border-style: solid;
+}
+
+
+.product-price {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rate {
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.russian-ruble {
+    font-weight: 600;
+}
+
+.product-availability-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-availability {
+    display: flex;
+    margin-top: 22px;
+    flex-direction: row;
+    width: max-content;
+    text-transform: uppercase;
+}
+
+.circle {
+    color: #00ff00;
+    font-size: 60px;
+    margin-top: -37px;
+    margin-right: 5px;
+}
+
+.availability {
+    font-size: 14px;
+}
+
+.add-to-basket-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.basket-button-item {
+    display: flex;
+    width: 110px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #2a77ed;
+    border-style: solid;
+    border-color: #2a77ed;
+    border-radius: 150px;
+}
+
+.plus {
+    color: white;
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.basket-icon {
+    width: 18px;
+}
+
+.play-all-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button-play-all-item {
+    display: flex;
+    height: 22px;
+    margin-left: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
+    background-color: #343434;
+    border-color: #343434;
+    border-style: solid;
+    border-radius: 20px;
+    width: 120px;
+}
+
+.button-text-item {
+    display: flex;
+}
+
+.arrow-img {
+    color: white;
+    margin-right: 14px;
+}
+
+.button-text {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.list-tracks-in-disk-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 16px;
+    height: 78px;
+}
+
+.list-tracks-in-disk-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow-img-play-track {
+    color: #4a4a4a;
+    margin-right: 10px;
+}
+
+.tracks-in-disk-items {
+    color: #4a4a4a;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+}
+
+.tracks-in-disk-items:hover {
+    border-bottom: 1px solid rgba(42, 119, 237, 0.3);
+    transition: all .2s ease-in-out;
+}
+
+.full-information-about-track-container {
+    display: flex;
+    border-style: solid;
+    border-color: #ececec;
+    background-color: #ececec;
+    border-radius: 10px;
+    margin-bottom: 55px;
+}
+
+.full-information-about-track-item {
+    margin: 18px 16px 16px;
+    font-size: 13px;
+}
+
+.logo-track-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-track {
+    width: 161px;
+}
+
+.list-har {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-har-item {
+    color: silver;
+    font-size: 16px;
+}
+
+.links-to-product-page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-payment-link-container {
+    flex-direction: column;
+    padding: 10px 50px 20px;
+    justify-items: center;
+    border-color: #b9b9b9;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    font-size: 13px;
+    color: #939393;
+}
+
+.payment-methods-img {
+    width: 130px;
+}
+
+.link-to-telegram-channel-container {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 21.13px 95px 20px;
+    justify-items: center;
+    border-color: #b9b9b9;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    color: #939393;
+}
+
+.tg-logo-img {
+    width: 35px;
+}
+
+.channel-chat-support-text-item {
+    width: max-content;
+}
+
+.chat {
+    color: #606060;
+}
+
+.offers-container {
+    flex-direction: column;
+    margin: 40px;
+    align-items: flex-start;
+}
+
+.offers-container-text {
+    margin-left: 5px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.offers-link-container {
+    margin-bottom: 30px;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.offers-link {
+    flex-direction: row;
+    max-width: 25%;
+}
+
+.offers-link-img {
+    width: 61px;
+    margin: 5px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: white;
+    border-width: 1px;
+}
+
+.recomend-tags-container-link {
+    display: flex;
+    flex-direction: row;
+}
+
+.recomend-tags-img {
+    width: 11px;
+    margin-top: 4px;
+    height: 11px;
+    margin-right: 5px;
+}
+
+.recomend-tags-text {
+    font-size: 11px;
+    color: #bebebe;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .shared-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .album-image-container {
+    }
+    .album-image-item {
+        width: 266px
+    }
+    .track-information-container {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .container-with-product-information {
+        max-width: 50%;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 30px;
+    }
+    .product-container {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .price-and-availability-information-container {
+        border-left: 0;
+        border-right: 0;
+        justify-content: flex-start;
+        padding-bottom: 30px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .price-and-availability-information {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .product-price {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    .product-availability-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .circle {
+        margin-top: -39px;
+    }
+    .add-to-basket-button{
+        margin-top: -8px;
+    }
+    .button-play-all-item {
+        margin-top: 30px;
+    }
+    .list-tracks-in-disk-items {
+        margin-left: 18px;
+    }
+
+    .product-payment-link-container {
+        width: 767px;
+    }
+    .link-to-telegram-channel-container {
+        width: 767px;
+    }
+    .offers-container {
+        margin-top: 80px;
+        width: 767px;
+        border-top: 1px;
+        border-right: 0;
+        border-left: 0;
+        border-bottom: 0;
+        border-color: #b9b9b9;
+        border-style: solid;
+    }
+    .offers-container-text {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .offers-link-container {
+        margin-left: -5px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .album-image-item {
+        width: 466px
+    }
+}

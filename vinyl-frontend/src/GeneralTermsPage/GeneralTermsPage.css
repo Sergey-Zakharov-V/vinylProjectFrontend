@@ -1,0 +1,311 @@
+.general-terms {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 20px 15px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(247, 247, 247, 1);
+    text-align: center;
+}
+
+.general-terms-container {
+    display: flex;
+    max-width: 768px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: start;
+    background-color: white;
+    border-color: white;
+    border-radius: 20px;
+    border-width: 16px;
+    border-style: solid;
+    box-shadow: -7px 7px 50px rgba(34, 60, 80, 0.2);
+}
+
+.general-terms-info {
+    padding: 10px 10px;
+}
+
+.terms-agreement-title {
+    display: flex;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    line-height: 36px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.terms-agreement-info {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.fundamentals {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.fundamentals-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.product-information {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.product-information-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.procedure-purchase-goods {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.procedure-purchase-goods-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.delivery-goods {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.delivery-goods-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.payment-goods {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.payment-goods-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.consent {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.consent-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+
+.confidential-policy-title {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 36px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.confidential-policy-info {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.definition-terms {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.definition-terms-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.general-provisions {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.general-provisions-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.subject-privacy-policy {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.subject-privacy-policy-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.purposes-collecting-user-information {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.purposes-collecting-user-information-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.processing-personal-information {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.processing-personal-information-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.obligations-parties {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.obligations-parties-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.responsibility-parties {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.responsibility-parties-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.dispute-resolution {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.dispute-resolution-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.additional-conditions {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.additional-conditions-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.general-terms-link {
+    color: #2a77ed;
+    border-bottom: 1px solid transparent;
+}
+
+.general-terms-link:hover {
+    border-bottom: 1px solid rgba(42, 119, 237, 0.3);
+    transition: all .2s ease-in-out;
+}
+
+.update-agreement {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.general-terms-pretension-container {
+    display: flex;
+    padding: 8px 0;
+    width: 100%;
+    max-width: 768px;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: rgb(236, 236, 236, 1);
+    background-color: rgb(236, 236, 236, 1);
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+
+.general-terms-pretension-base {
+    display: flex;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.general-terms-pretension {
+    font-size: 12px;
+}

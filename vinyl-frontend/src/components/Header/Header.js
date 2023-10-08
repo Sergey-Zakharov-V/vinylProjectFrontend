@@ -66,7 +66,7 @@ const Header = () => {
             </div>
             <section className="header">
                 <div className="container header-container">
-                    <Link to="#" className="site-title-link">
+                    <Link to="/" className="site-title-link">
                         <h1 className="site-title">SiteName</h1>
                     </Link>
                     <nav className="nav">
@@ -179,22 +179,22 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li className="footer-list-item">
-                                <Link to="#" className="footer-item-link">
+                                <Link to="/general-terms" className="footer-item-link">
                                     Общие условия
                                 </Link>
                             </li>
                             <li className="footer-list-item">
-                                <Link to="#" className="footer-item-link">
+                                <Link to="/payment" className="footer-item-link">
                                     Оплата
                                 </Link>
                             </li>
                             <li className="footer-list-item">
-                                <Link to="#" className="footer-item-link">
+                                <Link to="/delivery" className="footer-item-link">
                                     Доставка
                                 </Link>
                             </li>
                             <li className="footer-list-item">
-                                <Link to="#" className="footer-item-link">
+                                <Link to="/contacts" className="footer-item-link">
                                     Контакты
                                 </Link>
                             </li>
@@ -212,6 +212,9 @@ const Header = () => {
                         <button onClick={open_basket} className="basket-header-button">🢀</button>
                         <div className="basket-header">
                             <h2 className="basket-title">Корзина (0)</h2>
+                            <button className="history-orders-button">
+                                <img className="order-history-logo" src="/history.png" alt="История заказов"/>
+                            </button>
                         </div>
                     <div className="basket-body">
                         <p className="nothing-here">Ваша корзина пуста 🤕</p>
