@@ -1,3 +1,10 @@
+.contacts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
 .container-base {
     display: flex;
     justify-content: center;
