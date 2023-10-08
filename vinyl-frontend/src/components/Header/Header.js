@@ -1,8 +1,9 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import "./Header.css";
 import {Link} from "react-router-dom";
 
 const Header = () => {
+    const [history, setHistory] = useState("basket")
 
     const open_login_menu = async (e) => {
         const element = document.querySelector(".login-container")
@@ -28,14 +29,24 @@ const Header = () => {
         const section = document.querySelector(".basket");
         const menu_basket = document.querySelector(".basket-container");
         const window_closer = document.querySelector(".window-closer");
-        if (section.classList.contains("open")) {
-            window_closer.classList.remove("open")
-            menu_basket.classList.remove("open")
-            section.classList.remove("open")
+        if (section) {
+            if (section.classList.contains("open")) {
+                window_closer.classList.remove("open")
+                menu_basket.classList.remove("open")
+                section.classList.remove("open")
+            } else {
+                window_closer.classList.add("open")
+                menu_basket.classList.add("open")
+                section.classList.add("open")
+            }
+        }
+    }
+
+    const open_history = async () => {
+        if (history === "basket") {
+            setHistory("history")
         } else {
-            window_closer.classList.add("open")
-            menu_basket.classList.add("open")
-            section.classList.add("open")
+            setHistory("basket")
         }
     }
 
@@ -208,18 +219,33 @@ const Header = () => {
             </section>
             <section className="basket-section">
                 <div className="container basket-container">
+                    {history === "basket" ? (
                     <div className="basket">
                         <button onClick={open_basket} className="basket-header-button">🢀</button>
                         <div className="basket-header">
                             <h2 className="basket-title">Корзина (0)</h2>
-                            <button className="history-orders-button">
+                            <button onClick={open_history} className="history-orders-button">
                                 <img className="order-history-logo" src="/history.png" alt="История заказов"/>
                             </button>
                         </div>
-                    <div className="basket-body">
-                        <p className="nothing-here">Ваша корзина пуста 🤕</p>
+                        <div className="basket-body">
+                            <p className="nothing-here">Ваша корзина пуста 🤕</p>
+                        </div>
                     </div>
+                        ) : (
+                            <div className="history">
+                        <button onClick={open_basket} className="basket-header-button">🢀</button>
+                        <div className="basket-header">
+                            <h2 className="basket-title">Корзина (0)</h2>
+                            <button onClick={open_history} className="history-orders-button">
+                                <img className="order-history-logo" src="/history.png" alt="История заказов"/>
+                            </button>
+                        </div>
+                        <div className="basket-body">
+                            <p className="nothing-here">Ваша корзина пуста 🤕</p>
+                        </div>
                     </div>
+                    )}
                 </div>
             </section>
         </>
