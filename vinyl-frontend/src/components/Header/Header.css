@@ -130,6 +130,7 @@
 
 .history-orders-button {
     border: none;
+    cursor: pointer;
     background-color: inherit;
 }
 
@@ -141,9 +142,69 @@
 
 .basket-body {
     display: flex;
+    flex-direction: column;
     margin-top: 12px;
     width: 100%;
-    justify-content: center;
+    align-items: center;
+}
+
+.received-order-card-container {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 5px 10px 9px;
+    box-shadow: -7px 7px 50px rgba(34, 60, 80, 0.2);;
+}
+
+.information-about-receipt-container {
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+}
+
+.already-with-you-link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+}
+
+.already-with-you-link:hover {
+    border-bottom: 1px solid rgba(42, 119, 237, 0.3);
+    transition: all .2s ease-in-out;
+}
+
+.already-with-you {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pointer {
+    font-weight: 1000;
+    color: rgba(121, 121, 121, 0.69);
+}
+
+.quantity-and-amount-of-goods {
+    margin-top: 20px;
+}
+
+.received-disks-container {
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.product-images-item {
+    width: 55px;
+    padding: 3px;
+    border-radius: 9px;
+    flex-wrap: wrap;
 }
 
 .menu-section {

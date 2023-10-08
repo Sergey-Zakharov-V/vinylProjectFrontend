@@ -246,7 +246,22 @@ const Header = () => {
                             </div>
                             ) : (
                                 <div className="basket-body">
-                                    <p className="nothing-here">Ваши заказы пусты 🤕</p>
+                                    <p className="nothing-here">Вы еще ничего не заказывали 🤕</p>
+                                    <div className="container received-order-card-container">
+                                        <div className="container information-about-receipt-container">
+                                            <Link to="/order-information" className="already-with-you-link">
+                                                <p className="already-with-you">Уже у вас <b className="pointer">></b></p>
+                                            </Link>
+                                            <p className="date-of-receipt-history">Вы получили 16 июля</p>
+                                            <p className="quantity-and-amount-of-goods">4 товарa • 15490₽</p>
+                                        </div>
+                                        <div className="container received-disks-container">
+                                            <img src="/NMS0052-auto_width_266.jpg" alt="Изображение товара" className="product-images-item"/>
+                                            <img src="/NMS0052-auto_width_266.jpg" alt="Изображение товара" className="product-images-item"/>
+                                            <img src="/NMS0052-auto_width_266.jpg" alt="Изображение товара" className="product-images-item"/>
+                                            <img src="/NMS0052-auto_width_266.jpg" alt="Изображение товара" className="product-images-item"/>
+                                        </div>
+                                    </div>
                                 </div>)}
                     </div>
                 </div>

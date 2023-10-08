@@ -9,6 +9,7 @@ import DeliveryPage from "./DeliveryPage/DeliveryPage";
 import PaymentPage from "./PaymentPage/PaymentPage";
 import GeneralTermsPage from "./GeneralTermsPage/GeneralTermsPage";
 import TrackInformationPage from "./TrackInformationPage/TrackInformationPage";
+import OrderInformationPage from "./OrderInformationPage/OrderInformationPage";
 
 const App = () => {
 return (
@@ -20,6 +21,8 @@ return (
 		<Route path="/payment" element={<PaymentPage/>} />
 		<Route path="/general-terms" element={<GeneralTermsPage/>} />
 		<Route path="/track-information" element={<TrackInformationPage/>} />
+		<Route path="/order-information" element={<OrderInformationPage/>} />
+
 		<Route path="*" element={<div>Error Page</div>} />
 	</Routes>
 </BrowserRouter>
