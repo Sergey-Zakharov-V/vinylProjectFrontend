@@ -27,6 +27,7 @@ const Header = () => {
 
     const open_basket = async () => {
         const section = document.querySelector(".basket");
+        const section2 = document.querySelector(".history");
         const menu_basket = document.querySelector(".basket-container");
         const window_closer = document.querySelector(".window-closer");
         if (section) {
@@ -38,6 +39,16 @@ const Header = () => {
                 window_closer.classList.add("open")
                 menu_basket.classList.add("open")
                 section.classList.add("open")
+            }
+        } else if (section2) {
+            if (section2.classList.contains("open")) {
+                window_closer.classList.remove("open")
+                menu_basket.classList.remove("open")
+                section.classList.remove("open")
+            } else {
+                window_closer.classList.add("open")
+                menu_basket.classList.add("open")
+                section2.classList.add("open")
             }
         }
     }
@@ -242,7 +253,7 @@ const Header = () => {
                             </button>
                         </div>
                         <div className="basket-body">
-                            <p className="nothing-here">Ваша корзина пуста 🤕</p>
+                            <p className="nothing-here">Ваша жопа пуста 🤕</p>
                         </div>
                     </div>
                     )}
